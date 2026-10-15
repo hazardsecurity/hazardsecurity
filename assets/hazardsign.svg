@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="HazardSign AI: a document signs itself and is sealed">
+  <style>
+    .sig { stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 6s cubic-bezier(.65,0,.35,1) infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 520; } 30%, 90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    .seal { transform-origin: 488px 214px; animation: stamp 6s cubic-bezier(.2,1.4,.4,1) infinite; opacity: 0; }
+    @keyframes stamp { 0%, 32% { opacity: 0; transform: scale(1.8) rotate(-40deg); } 40%, 90% { opacity: 1; transform: scale(1) rotate(-12deg); } 100% { opacity: 0; transform: scale(1) rotate(-12deg); } }
+    .hash { animation: fade 6s linear infinite; }
+    @keyframes fade { 0%, 40% { opacity: 0; } 46%, 90% { opacity: 1; } 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .sig, .seal, .hash { animation: none; stroke-dashoffset: 0; opacity: 1; } .seal { transform: rotate(-12deg); } }
+    .m { font-family: ui-monospace, Menlo, Consolas, monospace; }
+    .s { font-family: Georgia, "Times New Roman", serif; }
+  </style>
+  <rect width="600" height="300" rx="24" fill="#f3efe6"/>
+  <g transform="rotate(-1.5 300 150)">
+    <rect x="40" y="26" width="520" height="248" rx="14" fill="#fffdf8" stroke="#121110" stroke-opacity=".08"/>
+    <text class="m" x="66" y="56" font-size="11" fill="#6e675d">NDA-2026-0417.pdf</text>
+    <text class="s" x="66" y="88" font-size="24" fill="#121110">Mutual Non-Disclosure Agreement</text>
+    <rect x="66" y="104" width="420" height="7" rx="3.5" fill="#ebe5d8"/>
+    <rect x="66" y="120" width="380" height="7" rx="3.5" fill="#ebe5d8"/>
+    <rect x="66" y="136" width="400" height="7" rx="3.5" fill="#ebe5d8"/>
+    <path class="sig" d="M72 222c10-6 18-30 26-40 6-8 9 2 6 12-4 14-10 26-6 28 6 3 14-18 20-24 4-4 6 2 4 8-2 8 2 10 8 4 8-8 12-20 18-20 5 0 1 14 6 16 6 2 10-12 16-12 4 0 2 10 8 10 8 0 12-10 20-12 10-2 18 4 30-2" fill="none" stroke="#121110" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="66" y1="232" x2="330" y2="232" stroke="#121110" stroke-opacity=".45"/>
+    <text x="66" y="250" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6e675d">Signed and sealed in the browser</text>
+    <text class="m hash" x="66" y="266" font-size="9.5" fill="#4a453e">sha-256 9f2c41d07a3b6c58f2e1094d7ab36c25e8f0a1b2c3d4e5f6a7b8c9d0e1f2e81a</text>
+    <g class="seal">
+      <circle cx="488" cy="214" r="44" fill="#ff5a1f"/>
+      <circle cx="488" cy="214" r="31" fill="none" stroke="#fff" stroke-opacity=".55" stroke-dasharray="2 3"/>
+      <path d="M474 215l10 10 19-21" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
