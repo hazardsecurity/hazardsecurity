@@ -1,14 +1,14 @@
-<a href="https://hazardsecurity.xyz"><img src="assets/banner.svg" alt="Hazardsecurity: software for the small jobs of every day" width="100%"></a>
+<a href="https://www.hazardsecurity.xyz"><img src="assets/banner.svg" alt="Hazardsecurity: software for the small jobs of every day" width="100%"></a>
 
 <h2 align="left">Hi, I'm Michael 👋</h2>
 
 <p align="left">
-  I'm a software engineer running <a href="https://hazardsecurity.xyz"><b>Hazardsecurity</b></a>, an independent studio that builds focused software for everyday jobs.
+  I'm a software engineer running <a href="https://www.hazardsecurity.xyz"><b>Hazardsecurity</b></a>, an independent studio that builds focused software for everyday jobs.
   Each tool does one job properly: private by default, quick to learn, fairly priced, with interfaces that feel good to use.
 </p>
 
 <p align="left">
-  <a href="https://hazardsecurity.xyz"><img alt="hazardsecurity.xyz" src="https://img.shields.io/badge/Studio-hazardsecurity.xyz-ffd400?style=flat-square&labelColor=0f0f0e"></a>
+  <a href="https://www.hazardsecurity.xyz"><img alt="hazardsecurity.xyz" src="https://img.shields.io/badge/Studio-hazardsecurity.xyz-ffd400?style=flat-square&labelColor=0f0f0e"></a>
   <a href="https://sign.hazardsecurity.xyz"><img alt="HazardSign AI" src="https://img.shields.io/badge/Live-HazardSign%20AI-ff5a1f?style=flat-square&labelColor=121110"></a>
   <!-- Add your links, e.g.:
   <a href="https://x.com/YOUR_HANDLE"><img alt="X" src="https://img.shields.io/badge/X-@YOUR_HANDLE-121110?style=flat-square&logo=x"></a>
@@ -41,7 +41,7 @@ More tools are in the workshop. Each one ships as its own product on a `*.hazard
 I treat motion as part of the product, not decoration. A few things I've built recently:
 
 - **A self-signing hero:** on HazardSign, a contract signs itself stroke by stroke, a seal stamps down on a spring, and the document's fingerprint decodes from noise into its real SHA-256.
-- **Hazard tape that reacts to you:** on [hazardsecurity.xyz](https://hazardsecurity.xyz), two strips of caution tape cross the hero and speed up or reverse with your scroll velocity ([source](https://github.com/hazardsecurity/hazardsecurity-studio)).
+- **Hazard tape that reacts to you:** on [hazardsecurity.xyz](https://www.hazardsecurity.xyz), two strips of caution tape cross the hero and speed up or reverse with your scroll velocity ([source](https://github.com/hazardsecurity/hazardsecurity-studio)).
 - **Scroll-driven storytelling:** a pinned "how it works" stage where each scroll step swaps a live scene.
 - **Your name as a signature:** on sign-up, the name you type is written out live as your signature.
 - **Small touches throughout:** letter-roll buttons with an arrow that fires and reloads, an envelope that folds shut when you ask for a reset link, and a paywall seal that unlocks.
@@ -62,4 +62,4 @@ I treat motion as part of the product, not decoration. A few things I've built r
 
 ### 📫 Get in touch
 
-Have a daily chore software should handle? Visit [hazardsecurity.xyz](https://hazardsecurity.xyz) or open an issue on [hazardsecurity-studio](https://github.com/hazardsecurity/hazardsecurity-studio).
+Have a daily chore software should handle? Visit [hazardsecurity.xyz](https://www.hazardsecurity.xyz) or open an issue on [hazardsecurity-studio](https://github.com/hazardsecurity/hazardsecurity-studio).
